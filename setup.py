@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="HTMLrendering",
-    version="0.0.8",
+    name="displayWebPage",
+    version="0.0.1",
     author="abidghias",
     author_email="abidghias89@gmail.com",
     description="A small package for rendering HTML pages in jupyter notebooks",

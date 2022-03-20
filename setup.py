@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="displayWebPage",
+    name="render_web",
     version="0.0.1",
     author="abidghias",
     author_email="abidghias89@gmail.com",

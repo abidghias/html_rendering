@@ -7,19 +7,19 @@ A small package for rendering HTML pages in jupyter notebooks
 
 > * in jupyter notebook -
 ```
-    !pip install HTMLrenderer
+    !pip install render_web
 ```
 
 > * in command prompt -
 ```bash    
-    pip install HTMLrenderer
+    pip install render_web
 ```
 
 * Now run below snippets of code in your jupyter-notebooks cell to render your website as an IFrame-
 
 ## default use case -
 ```python
-from HTMLrenderer.render import render_site
+from src.render_web import render_site
 
 URL="use your https URL here"
 render_site(URL)
@@ -27,7 +27,7 @@ render_site(URL)
 
 ## custom use case -
 ```python
-from HTMLrenderer.render import render_site
+from src.render_web import render_site
 
 URL="use your https URL here"
 render_site(URL, width="100%", height=600)

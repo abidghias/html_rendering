@@ -4,16 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="HTMLrenderer",
+    name="HTMLrendering",
     version="0.0.8",
     author="abidghias",
     author_email="abidghias89@gmail.com",
     description="A small package for rendering HTML pages in jupyter notebooks",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/c17hawke/HTMLrenderer-c17hawke",
+    url="https://github.com/abidghias/html_rendering",
     project_urls={
-        "Bug Tracker": "https://github.com/c17hawke/HTMLrenderer-c17hawke/issues",
+        "Bug Tracker": "https://github.com/abidghias/html_rendering/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",

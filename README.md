@@ -1,4 +1,4 @@
-# HTMLrenderer-c17hawke
+# HTMLrenderer-abidghias
 A small package for rendering HTML pages in jupyter notebooks
 
 # How to use -

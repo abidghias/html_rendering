@@ -1,4 +1,4 @@
-# HTMLrenderer-abidghias
+# DisplayWebPage-abidghias
 A small package for rendering HTML pages in jupyter notebooks
 
 # How to use -
